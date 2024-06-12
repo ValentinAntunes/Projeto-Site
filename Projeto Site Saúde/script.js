@@ -102,8 +102,6 @@ function calculateProteinIntake(weight, height) {
 
 function recommendSupplements(age, goal) {
     // Lógica para recomendar suplementos com base na idade e no objetivo
-    // Suplementos comuns incluem proteína em pó, creatina, etc.
-    // Esta é uma lógica simplificada, consulte um profissional de saúde para recomendações específicas
     let supplements = "";
     if (age > 50) {
         supplements += "Multivitamínico, ";
